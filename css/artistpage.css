@@ -1,0 +1,384 @@
+html{
+    background-color: rgb(0, 0, 0);
+}
+
+html::-webkit-scrollbar {
+    display: none;
+  }
+
+@font-face {
+    font-family: stepsmono;
+    src: url("Steps-Mono-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: stepsmonobold;
+    src: url("Steps-Mono.otf") format("opentype");
+}
+
+@font-face {
+    font-family: happytimesbold;
+    src: url("happy-times-NG_bold_master_web.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: happytimesitalic;
+    src: url("happy-times-NG_italic_master_web.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: happytimesregular;
+    src: url("happy-times-NG_regular_master_web.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: univers;
+    src: url("UniversLTStd-Cn.otf") format("opentype");
+}
+
+@font-face {
+    font-family: fraktion;
+    src: url("PPFraktionSans-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: fraktionbolditalic;
+    src: url("PPFraktionSans-BoldItalic.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: supply;
+    src: url("PPSupplyMono-Ultralight.otf") format("opentype");
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.fixedbar{
+    position: fixed;
+    top: 2%;
+    left: 1%;
+    height: 100%;
+    width: 13%;
+    z-index: 100;
+}
+
+.seconddecadeheading{
+    position: fixed;
+    z-index: 100;
+    left: 80%;
+    top: 0%;
+    margin: -3.5%;
+    font-size: 5vw;
+    font-family: stepsmono;
+    color:#00ff66;
+    mix-blend-mode:exclusion;
+}
+
+.tr808{
+    width: 100%;
+    height: auto;
+    padding-top: 15%;
+}
+
+.tr808:hover{
+    filter: drop-shadow(1rem 1rem 1rem #00ff66);
+    transition-duration: 1s;
+}
+
+.artistlist{
+    font-family: stepsmono;
+    color: white;
+    font-size: 1.25vw;
+    line-height: 7em;
+}
+
+.artistlistitem{
+    cursor: pointer;
+}
+
+.bgap{
+    position: fixed;
+    z-index: -100;
+    top: 0%;
+    left: 0%;
+    width: auto;
+    height: 100%;
+}
+
+.articleheader{
+    width: 100%;
+    height: auto;
+    /* background-color: rgba(255, 0, 0, 0.63); */
+    z-index: 10;
+}
+
+.artistname10s{
+    font-family: stepsmonobold;
+    color: #00ff66;
+    font-size: 13vw;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    filter: drop-shadow(0 0 0.7rem #00ff66);
+}
+
+.subartist{
+    position: fixed;
+    font-family: stepsmonobold;
+    color: #00ff66;
+    font-size: 8vw;
+    text-align: right;
+    filter: blur(10px);
+    left: 54%;
+    top: 30%;
+    z-index: -95;
+    padding-right: 2%;
+}
+.vhs2{
+    position: fixed;
+    top:0%;
+    left:0%;
+    width: 100%;
+    height:100%;
+    z-index: -99;
+    mix-blend-mode: multiply;
+    opacity: 90%;
+    /* filter: hue-rotate(45deg); */
+}
+.articlebody{
+    width: 45%;
+    height: auto;
+    /* background-color: rgba(255, 0, 0, 0.63); */
+    z-index: 10;
+    font-family: fraktion;
+    color: white;
+    font-size: 1.5vw;
+    margin-left: 20%;
+    margin-top: -7%;
+    text-decoration-color:#00ff66;
+}
+
+.greenunderline{
+    text-decoration-color: #00ff66;
+    cursor:zoom-in;
+}
+.purpunderline{
+    text-decoration-color: #9747ff;
+    cursor:zoom-in;
+}
+.blueunderline{
+    text-decoration-color: #00ffff;
+    cursor:zoom-in;
+}
+.greentext{
+    color: #00ff66;
+    cursor: pointer;
+}
+.purptext{
+    color: #9747ff;
+    cursor: pointer;
+}
+.bluetext{
+    color: #00ffff;
+    cursor: pointer;
+}
+.selected{
+    border-width: 1%;
+    border-color: #00ff66;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 2%;
+}
+.articlename{
+    font-family: stepsmonobold;
+    color: #00ff66;
+    font-size: 3vw;
+    text-align: center;
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.interview{
+    font-family: fraktionbolditalic;
+    color: white;
+    font-size: 2vw;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.interviewartist{
+    font-family: fraktion;
+    color: white;
+    font-size: 1.5vw;
+    margin-left: 35%;
+    padding-right: 2%;
+}
+
+.youtubevid{
+    width: 70%;
+    height: 70%;
+    margin-left: 20%;
+    margin-top: 5%;
+    mix-blend-mode: screen;
+}
+
+.videotime{
+    font-family: fraktionbolditalic;
+    color: white;
+    font-size: 2vw;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.scrollblur{
+    filter: blur(20px);
+    transition: all 0.5s ease;
+}
+
+.scrollblur2{
+    filter: blur(20px);
+    transition: all 0.5s ease;
+}
+
+.scrollblur.unblur{
+    filter: blur(0px);
+}
+
+.scrollblur2.unblur2{
+    filter: blur(0px);
+}
+
+.importantworkswords{
+    font-family: stepsmonobold;
+    color: #00ff66;
+    font-size: 4vw;
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.importantworks{
+    width:60%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap:3%;
+    margin-left: 35%;
+    padding-right: 2%;
+}
+
+.iwcovers{
+    width:70%;
+    height:auto;
+    /* float: right; */
+    /* margin-top:-5%; */
+}
+
+.firstiw{
+    font-family: stepsmono;
+    color: white;
+    font-size: 1.5vw;
+    
+    border-radius: 13px;
+    padding: 3%;
+    width: 90%;
+    height: auto;
+    cursor: pointer;
+}
+
+.iwcovers:hover{
+    border-width: 1px;
+    border-color: #00ff66;
+    border-style: solid;
+    /* border-width:5px; */
+    filter: drop-shadow(0 0 0.7rem #00ff66);
+    transition-duration: 500ms;
+}
+
+.albumtitle{
+    width:50%;
+    margin: 0%;
+}
+
+.youtubevidbottom{
+    width:50%;
+    height:50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    mix-blend-mode: screen;
+    padding-right: 2%;
+    margin-left: 35%;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 13px;
+}
+
+.bottomvidwords{
+    font-family: fraktion;
+    color: white;
+    font-size: 1.25vw;
+    padding-right: 2%;
+    margin-left: 35%;
+}
+
+
+.bottomvideotitle{
+    font-family: stepsmono;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.home{
+    color: white;
+    font-family: stepsmono;
+    text-align: center;
+}
+
+.home:hover{
+    color:#00ff66;
+    transition-duration: 1s;
+}
+
+.nextstory{
+    font-family: stepsmonobold;
+    color: #00ff66;
+    font-size: 4vw;
+    text-align: right;
+    width: 70%;
+    margin-left: 27%;
+    margin-top: 10%;
+    float:right;
+    padding-right: 2%;
+}
+
+#chrisartistname{
+    margin-left: 8%;
+}
+
+.videodivider{
+    width:100%;
+    height: 10%;
+}
+
+#subartist4{
+    position: fixed;
+    font-family: stepsmonobold;
+    color: #00ff66;
+    font-size: 8vw;
+    text-align: right;
+    filter: blur(10px);
+    left: 54%;
+    top: 30%;
+    z-index: -95;
+}
