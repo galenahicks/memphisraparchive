@@ -79,7 +79,7 @@ a:link {
     margin: -3.5%;
     font-size: 5vw;
     font-family: stepsmono;
-    color:#00ff66;
+    color:#9747ff;
     mix-blend-mode:exclusion;
 }
 
@@ -90,7 +90,7 @@ a:link {
 }
 
 .tr808:hover{
-    filter: drop-shadow(1rem 1rem 1rem #00ff66);
+    filter: drop-shadow(1rem 1rem 1rem #9747ff);
     transition-duration: 1s;
 }
 
@@ -98,7 +98,7 @@ a:link {
     font-family: stepsmono;
     color: white;
     font-size: 1.25vw;
-    line-height: 7em;
+    line-height: 6em;
 }
 
 .artistlistitem{
@@ -123,12 +123,12 @@ a:link {
 
 .artistname10s{
     font-family: stepsmonobold;
-    color: #00ff66;
+    color: #9747ff;
     font-size: 13vw;
     text-align: center;
     margin-top: 10%;
     margin-left: 5%;
-    filter: drop-shadow(0 0 0.7rem #00ff66);
+    filter: drop-shadow(0 0 0.7rem #9747ff);
 }
 #purppartistname{
     font-size: 11vw;
@@ -140,7 +140,7 @@ a:link {
 .subartist{
     position: fixed;
     font-family: stepsmonobold;
-    color: #00ff66;
+    color: #9747ff;
     font-size: 8vw;
     text-align: right;
     filter: blur(10px);
@@ -170,7 +170,11 @@ a:link {
     font-size: 1.5vw;
     margin-left: 20%;
     margin-top: -7%;
-    text-decoration-color:#00ff66;
+    text-decoration-color:#9747ff;
+}
+
+#articlebodytommy{
+    margin-top: -15%;
 }
 
 .greenunderline{
@@ -199,14 +203,14 @@ a:link {
 }
 .selected{
     border-width: 1%;
-    border-color: #00ff66;
+    border-color: #9747ff;
     border-radius: 5px;
     border-style: solid;
     padding: 2%;
 }
 .articlename{
     font-family: stepsmonobold;
-    color: #00ff66;
+    color: #9747ff;
     font-size: 3vw;
     text-align: center;
     width: 70%;
@@ -266,7 +270,7 @@ a:link {
 
 .importantworkswords{
     font-family: stepsmonobold;
-    color: #00ff66;
+    color: #9747ff;
     font-size: 4vw;
     width: 70%;
     margin-left: 20%;
@@ -304,10 +308,10 @@ a:link {
 
 .iwcovers:hover{
     border-width: 1px;
-    border-color: #00ff66;
+    border-color: #9747ff;
     border-style: solid;
     /* border-width:5px; */
-    filter: drop-shadow(0 0 0.7rem #00ff66);
+    filter: drop-shadow(0 0 0.7rem #9747ff);
     transition-duration: 500ms;
 }
 
@@ -352,13 +356,13 @@ a:link {
 }
 
 .home:hover{
-    color:#00ff66;
+    color:#9747ff;
     transition-duration: 1s;
 }
 
 .nextstory{
     font-family: stepsmonobold;
-    color: #00ff66;
+    color: #9747ff;
     font-size: 4vw;
     text-align: right;
     width: 70%;
@@ -387,4 +391,12 @@ a:link {
     left: 54%;
     top: 30%;
     z-index: -95;
+}
+
+#subartistzirk{
+    font-size: 7vw;
+}
+
+#thethird{
+    font-size: 10vw;
 }

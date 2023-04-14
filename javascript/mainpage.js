@@ -1019,3 +1019,39 @@ myDecade3.addEventListener('click', () => {
     mySecondClass4.addEventListener('click', () => { 
         window.location.href = 'christravis.html';
     });
+
+    mySecondClass1.addEventListener('click', () => { 
+        window.location.href = 'spaceghostpurpp.html';
+    });
+
+    mySecondClass2.addEventListener('click', () => { 
+        window.location.href = 'phonk.html';
+    });
+
+    mySecondClass5.addEventListener('click', () => { 
+        window.location.href = 'blacksmurf.html';
+    });
+
+    myFirstClass1.addEventListener('click', () => { 
+        window.location.href = '90sproducers.html';
+    });
+
+    myFirstClass2.addEventListener('click', () => { 
+        window.location.href = 'tommywrightiii.html';
+    });
+
+    myFirstClass3.addEventListener('click', () => { 
+        window.location.href = '8ballMJG.html';
+    });
+
+    myFirstClass4.addEventListener('click', () => { 
+        window.location.href = 'threesixmafia.html';
+    });
+
+    myFirstClass5.addEventListener('click', () => { 
+        window.location.href = 'gangstaboo.html';
+    });
+
+    myFirstClass6.addEventListener('click', () => { 
+        window.location.href = 'gangstapat.html';
+    });
