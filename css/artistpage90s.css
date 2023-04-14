@@ -52,6 +52,11 @@ html::-webkit-scrollbar {
     src: url("PPSupplyMono-Ultralight.otf") format("opentype");
 }
 
+@font-face {
+    font-family: fraktionbold;
+    src: url("PPFraktionSans-Bold.otf") format("opentype");
+}
+
 a:link {
     text-decoration: none;
     color: inherit;
@@ -399,4 +404,9 @@ a:link {
 
 #thethird{
     font-size: 10vw;
+}
+
+.bold{
+    font-family: fraktionbold;
+    font-size: 2.2vw;
 }
