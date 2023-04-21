@@ -23,21 +23,20 @@ window.addEventListener('scroll', () => {
 const element = document.querySelector('.subartist');
 const myOpacityScroll = () => {
   const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-  // Calculate the opacity based on scroll position
   const opacity = 1 - (scrollTop / window.innerHeight);
-  // Set the opacity of the element
-  element.style.opacity = opacity.toFixed(2); // You can adjust the decimal places as needed
+  element.style.opacity = opacity.toFixed(2); 
 };
-// Call the scrollOpacity function on scroll event
 window.addEventListener('scroll', myOpacityScroll);
 
 const heading = document.querySelector('.decadeheading');
 const myOpacityScrollHeading = () => {
   const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-  // Calculate the opacity based on scroll position
   const opacity = 1 - (scrollTop / window.innerHeight);
-  // Set the opacity of the element
-  heading.style.opacity = opacity.toFixed(2); // You can adjust the decimal places as needed
+  heading.style.opacity = opacity.toFixed(2); 
 };
-// Call the scrollOpacity function on scroll event
 window.addEventListener('scroll', myOpacityScrollHeading);
+
+// const pageSong = document.querySelector('.pagesong');
+// window.onload = function() {
+// pageSong.play();
+// };

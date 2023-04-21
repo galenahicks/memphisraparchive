@@ -1055,3 +1055,41 @@ myDecade3.addEventListener('click', () => {
     myFirstClass6.addEventListener('click', () => { 
         window.location.href = 'gangstapat.html';
     });
+
+    myThirdClass1.addEventListener('click', () => { 
+        window.location.href = 'youngdolph.html';
+    });
+
+    myThirdClass2.addEventListener('click', () => { 
+        window.location.href = 'keyglock.html';
+    });
+
+    myThirdClass3.addEventListener('click', () => { 
+        window.location.href = 'blocboyjb.html';
+    });
+
+    myThirdClass4.addEventListener('click', () => { 
+        window.location.href = 'taykeith.html';
+    });
+
+    myThirdClass5.addEventListener('click', () => { 
+        window.location.href = 'nlechoppa.html';
+    });
+
+    myThirdClass6.addEventListener('click', () => { 
+        window.location.href = 'glorilla.html';
+    });
+
+   
+
+        console.log("art")
+var myInstructions = document.getElementById('instructions');
+        myDecade1.addEventListener('click', () => { 
+            myInstructions.style.display ='none';
+        });
+        myDecade2.addEventListener('click', () => { 
+            myInstructions.style.display ='none';
+        });
+        myDecade3.addEventListener('click', () => { 
+            myInstructions.style.display ='none';
+        });
