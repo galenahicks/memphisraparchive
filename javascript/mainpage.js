@@ -1093,3 +1093,69 @@ var myInstructions = document.getElementById('instructions');
         myDecade3.addEventListener('click', () => { 
             myInstructions.style.display ='none';
         });
+
+        var myAboutbutton = document.getElementById('aboutbutton');
+        var myAboutpanel = document.getElementById('aboutpanel');
+        var myXbutton = document.getElementById('xbutton');
+        myAboutbutton.addEventListener('click', () => { 
+        myAboutbutton.style.display = 'none';
+         myAboutpanel.style.display = 'block';
+         myXbutton.style.display = 'block';
+        });
+
+        myXbutton.addEventListener('click', () => { 
+            myAboutbutton.style.display = 'block';
+         myAboutpanel.style.display = 'none';
+         myXbutton.style.display = 'none';
+            });
+
+var soundOn = document.getElementById('sound');
+var myMute = document.getElementById('mute');
+
+soundOn.addEventListener('click', () => { 
+    soundOn.style.display ='none';
+    myMute.style.display ='block';
+    myZirkaudio.muted = true;
+    myTommyaudio.muted = true;
+    myBallmjgaudio.muted = true;
+    myThreesixaudio.muted = true;
+    myBooaudio.muted = true;
+    myPataudio.muted = true;
+    myPurppaudio.muted = true;
+    myPhonkaudio.muted = true;
+    myWulfaudio.muted = true;
+    myChrisaudio.muted = true;
+    mySmurfaudio.muted = true;
+    myDolphaudio.muted = true;
+    myGlockaudio.muted = true;
+    myBlocboyaudio.muted = true;
+    myKeithaudio.muted = true;
+    myChoppaaudio.muted = true;
+    myGloaudio.muted = true;
+});
+
+myMute.addEventListener('click', () => { 
+    myMute.style.display ='none';
+    soundOn.style.display ='block';
+    myZirkaudio.muted = false;
+    myTommyaudio.muted = false;
+    myBallmjgaudio.muted = false;
+    myThreesixaudio.muted = false;
+    myBooaudio.muted = false;
+    myPataudio.muted = false;
+    myPurppaudio.muted = false;
+    myPhonkaudio.muted = false;
+    myWulfaudio.muted = false;
+    myChrisaudio.muted = false;
+    mySmurfaudio.muted = false;
+    myDolphaudio.muted = false;
+    myGlockaudio.muted = false;
+    myBlocboyaudio.muted = false;
+    myKeithaudio.muted = false;
+    myChoppaaudio.muted = false;
+    myGloaudio.muted = false;
+});
+
+
+        
+       

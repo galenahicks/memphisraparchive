@@ -36,6 +36,29 @@ const myOpacityScrollHeading = () => {
 };
 window.addEventListener('scroll', myOpacityScrollHeading);
 
+const scroller = document.querySelector('.downarrow');
+const myDown = () => {
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+  const opacity = 1 - (scrollTop / window.innerHeight);
+  scroller.style.opacity = opacity.toFixed(2); 
+};
+window.addEventListener('scroll', myDown);
+
+const scroller2 = document.querySelector('.downarrow2');
+const myDown2 = () => {
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+  const opacity = 1 - (scrollTop / window.innerHeight);
+  scroller2.style.opacity = opacity.toFixed(2); 
+};
+window.addEventListener('scroll', myDown2);
+
+const scroller3 = document.querySelector('.downarrow3');
+const myDown3 = () => {
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+  const opacity = 1 - (scrollTop / window.innerHeight);
+  scroller3.style.opacity = opacity.toFixed(2); 
+};
+window.addEventListener('scroll', myDown3);
 // const pageSong = document.querySelector('.pagesong');
 // window.onload = function() {
 // pageSong.play();
