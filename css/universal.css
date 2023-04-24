@@ -611,13 +611,144 @@ a:link {
     top:40%;
   }
 
-  /* @media only screen and (min-width: 5000px) {
-    .circle {
-      width:450px;
-      height:450px;
-    }
-    .minicircle{
-      width:150px;
-      height:150px;
-    }
-  } */
+  #aboutbutton{
+    position: absolute;
+    z-index: 300;
+    width:3vw;
+    height:3vw;
+    float:right;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    top:3vw;
+    left:93vw;
+    font-family: supply;
+    font-size: 1.5vw;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+
+  #eye{
+    margin: 0%;
+    margin-top: 15%;
+  }
+
+  #xbutton{
+    position: absolute;
+    z-index: 301;
+    width:3vw;
+    height:3vw;
+    float:right;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    top:3vw;
+    left:93vw;
+    font-family: supply;
+    font-size: 1.5vw;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    display: none;
+  }
+
+  #ex{
+    margin: 0%;
+    margin-top: 15%;
+  }
+
+  #aboutpanel{
+    width: 80%;
+    height:80%;
+    background-color: #00000090;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 13px;
+    position: absolute;
+    z-index: 400;
+    top:5vw;
+    left:10vw;
+    backdrop-filter: blur(5px);
+    display:none;
+    color: white;
+    
+  }
+
+  #abouttitle{
+    font-family: stepsmonobold;
+    font-size: 2vw;
+    padding:2vw;
+  }
+
+  #aboutbody{
+    font-family: supply;
+    font-size: 1.1vw;
+    padding:2vw;
+    line-height: 200%;
+  }
+  a:link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .morework{
+    color: #00ffff;
+  }
+  
+  #sound{
+    position: absolute;
+    z-index: 300;
+    width:3vw;
+    height:3vw;
+    float:right;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    top:3vw;
+    left:88vw;
+    font-family: supply;
+    font-size: 1.5vw;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+
+  #soundpng{
+    width:100%;
+    height: 100%;
+  }
+
+  #mute{
+    position: absolute;
+    z-index: 300;
+    width:3vw;
+    height:3vw;
+    float:right;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    top:3vw;
+    left:88vw;
+    font-family: supply;
+    font-size: 1.5vw;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    display:none;
+  }
+
+  #mutepng{
+    width:100%;
+    height: 100%;
+  }
