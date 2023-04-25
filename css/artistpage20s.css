@@ -484,3 +484,54 @@ a:link {
 .scrolldown{
     margin-bottom: 0%;
 }
+
+.tooltipgreen{
+    width:20%;
+    height:fit-content;
+    background-color:#00ff66;
+    position: absolute;
+    z-index:200;
+    top:0%;
+    left:0%;
+    opacity: 100%;
+    display:none;
+}
+
+.tooltippurp{
+    width:20%;
+    height:fit-content;
+    background-color:#9747ff;
+    position: absolute;
+    z-index:200;
+    top:0%;
+    left:0%;
+    opacity: 100%;
+    display:none;
+}
+
+.tooltipblue{
+    width:20%;
+    height:fit-content;
+    background-color:#00ffff;
+    position: absolute;
+    z-index:200;
+    top:0%;
+    left:0%;
+    opacity: 100%;
+    display:none;
+}
+.tooltipname{
+    font-family: fraktionbolditalic;
+    color: black;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+}
+
+.tooltipbody{
+    font-family: supply;
+    color: black;
+    font-size: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+}
